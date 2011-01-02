@@ -1,0 +1,16 @@
+{
+    body => \'index.tmpl',
+    title => '',
+    plugins => [
+        qw/DataToExcel/,
+    ],
+    
+    plug_data_to_excel => {
+        data => [
+            [ qw/Foo  Bar  Baz/ ],
+            [ qw/Foo1 Bar1 Baz1/ ],
+            [ qw/Foo2 Bar2 Baz2/ ],
+        ],
+    },
+}
+
