@@ -2,6 +2,7 @@ Build.PL
 Changes
 MANIFEST
 README
+LICENSE
 lib/App/ZofCMS/Plugin/DataToExcel.pm
 examples/index.tmpl
 t/00-load.t
@@ -10,3 +11,4 @@ t/pod-coverage.t
 t/pod.t
 Makefile.PL
 META.yml
+META.json
